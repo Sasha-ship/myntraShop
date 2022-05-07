@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="myntraShop">
+	<listeners>
+		<listener class-name="com.myntraShop.utilities.ExtentReport5" />
+	</listeners>
+	<test name="myntraShopT1">
+
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<class name="com.myntraShop.testCases.TC01_HomePageToLoginPage" />
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [myntraShop]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="myntraShopT1(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.myntraShop.testCases.TC01_HomePageToLoginPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="WelcomeToLoginPage"/>
+        </methods>
+      </class> <!-- com.myntraShop.testCases.TC01_HomePageToLoginPage -->
+    </classes>
+  </test> <!-- myntraShopT1(failed) -->
+</suite> <!-- Failed suite [myntraShop] -->
